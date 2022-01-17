@@ -10,6 +10,7 @@ func init(plugin:EditorPlugin):
 	scr_ed = plugin.get_editor_interface().get_script_editor()
 
 
+
 func key_input(event):
 	if Input.is_key_pressed(KEY_ENTER):
 		var cur_text_ed:TextEdit = Utils.get_current_text_ed(scr_ed)
